@@ -21,8 +21,8 @@ import { Provider } from "react-redux";
 
 export default class App extends React.Component {
   constructor(){
-    this._store = Store.create();
-    global.store = this._store;
+    this.store = Store.create();
+    global.store = this.store;
   }
 
   render() {
