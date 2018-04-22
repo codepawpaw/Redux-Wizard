@@ -12,7 +12,7 @@ This tool aims to make it easier to create action files, reducers files, and sto
 
 ## Usage
 * `npm install -g redux-wizards`
-* `redux-wizards`
+* run in your cli `redux-wizards`
 * First input your entity name ex: Hello, Session, etc
 * Input your target path
 * redux-wizards will create generated file
