@@ -8,7 +8,7 @@ const fs          = require('fs');
 clear();
 console.log(
   chalk.yellow(
-    figlet.textSync('Redux Generator', { horizontalLayout: 'full' })
+    figlet.textSync('Redux Wizard', { horizontalLayout: 'full' })
   )
 );
 

@@ -49,7 +49,7 @@ module.exports = generator = (entityName, _GENERATED_PATH) => {
         "store.js", undefined,
         "STORE", () => {
             spinner.stop();
-            console.log(chalk.green('File success generated!!!'));
+            console.log(chalk.green('Congratulation file success generated!!!'));
         }
     )
 
