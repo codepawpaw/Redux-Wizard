@@ -3,14 +3,14 @@
 Once upon time there was a wizard who had mastering react. But he doesn't know anything about redux. So he decided to learn redux magic spell and create a tools calles Redux Wizards.
 This tool aims to make it easier to create action files, reducers files, and stores files that are used for redux technology.
 
-#### Demo
+## Demo
 ![demo](demo.gif)
 
-#### Goals
+## Goals
 * Shorten the time
 * Uniform structure
 
-#### Usage
+## Usage
 * `npm install -g redux-wizards`
 * In your root react component add these lines
 
@@ -53,9 +53,9 @@ export default class YourComponent extends React.Component {
 }
 ```
 
-#### Contributing
+## Contributing
 
 * Feel free to open PR.
 
-#### License
+## License
 ISC Licensed
