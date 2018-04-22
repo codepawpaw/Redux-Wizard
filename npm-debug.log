@@ -1,0 +1,110 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/home/jonathan/.nvm/versions/node/v6.10.3/bin/node',
+1 verbose cli   '/home/jonathan/.nvm/versions/node/v6.10.3/bin/npm',
+1 verbose cli   'publish' ]
+2 info using npm@3.10.10
+3 info using node@v6.10.3
+4 verbose publish [ '.' ]
+5 silly cache add args [ '.', null ]
+6 verbose cache add spec .
+7 silly cache add parsed spec Result {
+7 silly cache add   raw: '.',
+7 silly cache add   scope: null,
+7 silly cache add   escapedName: null,
+7 silly cache add   name: null,
+7 silly cache add   rawSpec: '.',
+7 silly cache add   spec: '/home/jonathan/Jonathan/Workspace/react-native/redux-generator',
+7 silly cache add   type: 'directory' }
+8 verbose addLocalDirectory /home/jonathan/.npm/redux-wizards/1.1.0/package.tgz not in flight; packing
+9 verbose correctMkdir /home/jonathan/.npm correctMkdir not in flight; initializing
+10 info lifecycle redux-wizards@1.1.0~prepublish: redux-wizards@1.1.0
+11 silly lifecycle redux-wizards@1.1.0~prepublish: no script for prepublish, continuing
+12 verbose tar pack [ '/home/jonathan/.npm/redux-wizards/1.1.0/package.tgz',
+12 verbose tar pack   '/home/jonathan/Jonathan/Workspace/react-native/redux-generator' ]
+13 verbose tarball /home/jonathan/.npm/redux-wizards/1.1.0/package.tgz
+14 verbose folder /home/jonathan/Jonathan/Workspace/react-native/redux-generator
+15 verbose addLocalTarball adding from inside cache /home/jonathan/.npm/redux-wizards/1.1.0/package.tgz
+16 verbose correctMkdir /home/jonathan/.npm correctMkdir not in flight; initializing
+17 silly cache afterAdd redux-wizards@1.1.0
+18 verbose afterAdd /home/jonathan/.npm/redux-wizards/1.1.0/package/package.json not in flight; writing
+19 verbose correctMkdir /home/jonathan/.npm correctMkdir not in flight; initializing
+20 verbose afterAdd /home/jonathan/.npm/redux-wizards/1.1.0/package/package.json written
+21 silly publish { name: 'redux-wizards',
+21 silly publish   version: '1.1.0',
+21 silly publish   description: '',
+21 silly publish   main: 'index.js',
+21 silly publish   scripts: { start: 'node index.js' },
+21 silly publish   author: { name: 'Jonathan' },
+21 silly publish   license: 'ISC',
+21 silly publish   dependencies:
+21 silly publish    { chalk: '^2.4.0',
+21 silly publish      clear: '^0.1.0',
+21 silly publish      'cli-spinner': '^0.2.8',
+21 silly publish      commander: '^2.15.1',
+21 silly publish      figlet: '^1.2.0',
+21 silly publish      inquirer: '^5.2.0' },
+21 silly publish   bin: { 'redux-wizards': 'index.js' },
+21 silly publish   gitHead: 'bb37ba71120a3389ead969bd284035ea34395c0c',
+21 silly publish   readme: 'ERROR: No README data found!',
+21 silly publish   _id: 'redux-wizards@1.1.0',
+21 silly publish   _shasum: '8cc91752e3c3e772dfcb8fa2d09e7976e0d5da55',
+21 silly publish   _from: '.' }
+22 verbose getPublishConfig undefined
+23 silly mapToRegistry name redux-wizards
+24 silly mapToRegistry using default registry
+25 silly mapToRegistry registry https://registry.npmjs.org/
+26 silly mapToRegistry data Result {
+26 silly mapToRegistry   raw: 'redux-wizards',
+26 silly mapToRegistry   scope: null,
+26 silly mapToRegistry   escapedName: 'redux-wizards',
+26 silly mapToRegistry   name: 'redux-wizards',
+26 silly mapToRegistry   rawSpec: '',
+26 silly mapToRegistry   spec: 'latest',
+26 silly mapToRegistry   type: 'tag' }
+27 silly mapToRegistry uri https://registry.npmjs.org/redux-wizards
+28 verbose publish registryBase https://registry.npmjs.org/
+29 silly publish uploading /home/jonathan/.npm/redux-wizards/1.1.0/package.tgz
+30 verbose request uri https://registry.npmjs.org/redux-wizards
+31 verbose request sending authorization for write operation
+32 info attempt registry request try #1 at 5:52:06 PM
+33 verbose request using bearer token for auth
+34 verbose request id dc08470d3fb27588
+35 http request PUT https://registry.npmjs.org/redux-wizards
+36 http 403 https://registry.npmjs.org/redux-wizards
+37 verbose headers { 'content-type': 'application/json',
+37 verbose headers   'cache-control': 'max-age=300',
+37 verbose headers   'content-length': '93',
+37 verbose headers   'accept-ranges': 'bytes',
+37 verbose headers   date: 'Sun, 22 Apr 2018 10:54:46 GMT',
+37 verbose headers   via: '1.1 varnish',
+37 verbose headers   connection: 'keep-alive',
+37 verbose headers   'x-served-by': 'cache-sin18032-SIN',
+37 verbose headers   'x-cache': 'MISS',
+37 verbose headers   'x-cache-hits': '0',
+37 verbose headers   'x-timer': 'S1524394485.067126,VS0,VE963',
+37 verbose headers   vary: 'Accept-Encoding, Accept' }
+38 verbose request invalidating /home/jonathan/.npm/registry.npmjs.org/redux-wizards on PUT
+39 error publish Failed PUT 403
+40 verbose stack Error: You cannot publish over the previously published versions: 1.1.0. : redux-wizards
+40 verbose stack     at makeError (/home/jonathan/.nvm/versions/node/v6.10.3/lib/node_modules/npm/node_modules/npm-registry-client/lib/request.js:302:12)
+40 verbose stack     at CachingRegistryClient.<anonymous> (/home/jonathan/.nvm/versions/node/v6.10.3/lib/node_modules/npm/node_modules/npm-registry-client/lib/request.js:290:14)
+40 verbose stack     at Request._callback (/home/jonathan/.nvm/versions/node/v6.10.3/lib/node_modules/npm/node_modules/npm-registry-client/lib/request.js:210:14)
+40 verbose stack     at Request.self.callback (/home/jonathan/.nvm/versions/node/v6.10.3/lib/node_modules/npm/node_modules/request/request.js:187:22)
+40 verbose stack     at emitTwo (events.js:106:13)
+40 verbose stack     at Request.emit (events.js:191:7)
+40 verbose stack     at Request.<anonymous> (/home/jonathan/.nvm/versions/node/v6.10.3/lib/node_modules/npm/node_modules/request/request.js:1048:10)
+40 verbose stack     at emitOne (events.js:96:13)
+40 verbose stack     at Request.emit (events.js:188:7)
+40 verbose stack     at IncomingMessage.<anonymous> (/home/jonathan/.nvm/versions/node/v6.10.3/lib/node_modules/npm/node_modules/request/request.js:969:12)
+41 verbose statusCode 403
+42 verbose pkgid redux-wizards
+43 verbose cwd /home/jonathan/Jonathan/Workspace/react-native/redux-generator
+44 error Linux 4.4.0-119-generic
+45 error argv "/home/jonathan/.nvm/versions/node/v6.10.3/bin/node" "/home/jonathan/.nvm/versions/node/v6.10.3/bin/npm" "publish"
+46 error node v6.10.3
+47 error npm  v3.10.10
+48 error code E403
+49 error You cannot publish over the previously published versions: 1.1.0. : redux-wizards
+50 error If you need help, you may report this error at:
+50 error     <https://github.com/npm/npm/issues>
+51 verbose exit [ 1, true ]
