@@ -79,8 +79,16 @@ module.exports = {
         });
     },
     generateFolder : (rootPath) => {
-        fs.mkdirSync(rootPath+ "reducer");
-        fs.mkdirSync(rootPath+ "action");
-        fs.mkdirSync(rootPath+ "store");
+        if(!fs.existsSync(rootPath + "reducer")) {
+            fs.mkdirSync(rootPath + "reducer");
+        }
+
+        if(!fs.existsSync(rootPath + "action")) {
+            fs.mkdirSync(rootPath + "action");
+        }
+
+        if(!fs.existsSync(rootPath + "store")) {
+            fs.mkdirSync(rootPath + "store");
+        }
     }
 }
