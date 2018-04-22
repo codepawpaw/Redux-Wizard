@@ -6,5 +6,4 @@ class Store {
     return createStore(Reducer.all());
   }
 }
-
 export default Store;
