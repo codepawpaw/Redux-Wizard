@@ -1,7 +1,7 @@
-const ActionTemplate       = './template/action_template.js';
-const ReducerTemplate      = './template/reducer_template.js';
-const IndexReducerTemplate = './template/index_reducer_template.js';
-const StoreTemplate        = './template/store_template.js';
+const ActionTemplate       = __dirname + '/template/action_template.js';
+const ReducerTemplate      = __dirname + '/template/reducer_template.js';
+const IndexReducerTemplate = __dirname + '/template/index_reducer_template.js';
+const StoreTemplate        = __dirname + '/template/store_template.js';
 //var _GENERATED_PATH      = './generated/';
 
 const chalk       = require('chalk');

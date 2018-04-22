@@ -2,7 +2,7 @@
 const chalk       = require('chalk');
 const clear       = require('clear');
 const figlet      = require('figlet');
-const inquirer   = require('inquirer');
+const inquirer    = require('inquirer');
 const generator   = require('./generator.js');
 const fs          = require('fs');
 
