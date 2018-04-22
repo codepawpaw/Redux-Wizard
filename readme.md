@@ -1,5 +1,7 @@
 # Redux Wizards
 
+![logo](https://drive.google.com/open?id=1JWU2dLrt2cxS38rgYAZs2oSE1g_AZL9Y)
+
 Once upon time there was a wizard who had mastering react. But he doesn't know anything about redux. So he decided to learn redux magic spell and create a tools calles Redux Wizards.
 This tool aims to make it easier to create action files, reducers files, and stores files that are used for redux technology.
 
