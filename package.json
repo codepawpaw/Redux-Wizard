@@ -1,6 +1,6 @@
 {
   "name": "redux-wizards",
-  "version": "1.3.0",
+  "version": "1.4.0",
   "description": "",
   "main": "index.js",
   "scripts": {
@@ -17,7 +17,7 @@
     "inquirer": "^5.2.0"
   },
   "bin": {
-    "redux-wizards": "bin/index.js"
+    "redux-wizards": "./bin/index.js"
   },
   "preferGlobal": "true"
 }
