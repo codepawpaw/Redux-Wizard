@@ -30,6 +30,8 @@ module.exports = generator = (entityName, _GENERATED_PATH) => {
     spinner.setSpinnerString('|/-\\');
     spinner.start();
 
+    Utils.generateFolder(_GENERATED_PATH);
+
     Utils.generateTemplate(ActionTemplate, _GENERATED_PATH, 
         entityName.toLowerCase()+"_action.js", 
         actionFilter, "ACTION",() => {

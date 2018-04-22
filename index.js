@@ -35,7 +35,7 @@ const questions = [
       type: 'input',
       message: 'Enter your destination path (./example_destination_path/):',
       validate: function( value ) {
-        if (value.length) {
+        if (value.length && fs.existsSync(value)) {
           if(value[value.length-1] != "/") {
             value += "/"
           }

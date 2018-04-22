@@ -78,4 +78,9 @@ module.exports = {
             }
         });
     },
+    generateFolder : (rootPath) => {
+        fs.mkdirSync(rootPath+ "reducer");
+        fs.mkdirSync(rootPath+ "action");
+        fs.mkdirSync(rootPath+ "store");
+    }
 }
