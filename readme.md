@@ -12,6 +12,10 @@ This tool aims to make it easier to create action files, reducers files, and sto
 
 ## Usage
 * `npm install -g redux-wizards`
+* `redux-wizards`
+* First input your entity name ex: Hello, Session, etc
+* Input your target path
+* redux-wizards will create generated file
 * In your root react component add these lines
 
 ```jsx
