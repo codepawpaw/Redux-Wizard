@@ -1,0 +1,19 @@
+{
+  "name": "redux-generator",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "author": "Jonathan",
+  "license": "ISC",
+  "dependencies": {
+    "chalk": "^2.4.0",
+    "clear": "^0.1.0",
+    "cli-spinner": "^0.2.8",
+    "commander": "^2.15.1",
+    "figlet": "^1.2.0",
+    "inquirer": "^5.2.0"
+  }
+}
