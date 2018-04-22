@@ -16,6 +16,17 @@ This tool aims to make it easier to create action files, reducers files, and sto
 * First input your entity name ex: Hello, Session, etc
 * Input your target path
 * redux-wizards will create generated file
+
+```
+├── action
+│   └── hello_action.js
+├── reducer
+│   ├── hello_reducer.js
+│   └── reducer.js
+└── store
+    └── store.js
+```
+
 * In your root react component add these lines
 
 ```jsx
